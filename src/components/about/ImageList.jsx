@@ -1,4 +1,5 @@
 import React from 'react'
+import './imagelist.css'
 import styled from 'styled-components'
 import About1 from "../../assets/images/about_images/about1.png"
 import About2 from "../../assets/images/about_images/about2.png"
@@ -18,7 +19,6 @@ const Wrapper = styled.div`
 
 const ImageContainer1 = styled.div`
     display: flex;
-    width: 20%;
     height: 100%;
     flex-direction: column;
     gap: 24px;
@@ -27,8 +27,12 @@ const ImageContainer1 = styled.div`
 const ImageContainer2 = styled.div`
     display: flex;
     flex-wrap: wrap;
-    width: 55%;
     height: 100%;
+    gap: 24px;
+`
+
+const ImageWrapper = styled.div`
+    display: flex;
     gap: 24px;
 `
 
@@ -40,8 +44,10 @@ function ImageList() {
             <img src={About2} alt="about2" />
         </ImageContainer1>
         <ImageContainer2>
-            <img src={About3} alt="about3" />
-            <img src={About4} alt="about4" />
+            <ImageWrapper>
+                <img src={About3} alt="about3" />
+                <img src={About4} alt="about4" />
+            </ImageWrapper>
             <img src={About5} alt="about5" />
         </ImageContainer2>
         <ImageContainer1>

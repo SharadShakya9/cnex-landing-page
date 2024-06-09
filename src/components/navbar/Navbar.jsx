@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <Wrapper>
       <NavWrapper>
-        <IconFactory />
+        <IconFactory type="cnex" />
         <NavLinks>
           <Link name="Home" />
           <Link name="About us" />

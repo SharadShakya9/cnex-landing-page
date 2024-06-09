@@ -16,7 +16,7 @@ const ContentWrapper = styled.div`
   width: 85%;
   height: 892px;
   display: flex;
-  justify-cotent: center;
+  justify-content: center;
   align-items: center;
   gap: 60px;
   flex-direction: column;
