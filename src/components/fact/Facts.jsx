@@ -7,7 +7,7 @@ const Container = styled.div`
   justify-content: center;
   margin-top: -68px;
   position: absolute;
-  z-index: 5;
+  z-index: 8;
 
   @media (max-width: 360px) {
     display: none;

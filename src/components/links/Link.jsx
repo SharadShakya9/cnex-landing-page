@@ -7,6 +7,10 @@ const Links = styled.div`
   padding: 10px 24px;;
   cursor: pointer;
 
+  &:hover {
+    text-decoration: underline;
+  }
+
   @media (max-width: 360px) {
     padding: 0;
     font-size: 11px;
