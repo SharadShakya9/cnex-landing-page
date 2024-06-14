@@ -5,6 +5,13 @@ const Container = styled.div`
   width: 100%;
   display: flex;
   justify-content: center;
+  margin-top: -68px;
+  position: absolute;
+  z-index: 5;
+
+  @media (max-width: 360px) {
+    display: none;
+  }
 `;
 
 const Wrapper = styled.div`

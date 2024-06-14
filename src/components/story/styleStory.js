@@ -7,6 +7,10 @@ export const Wrapper = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media (max-width: 360px) {
+        display: none;
+    }
 `
 
 export const StoryWrapper = styled.div`

@@ -8,6 +8,11 @@ export const Wrapper = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media (max-width: 360px) {
+        height: 744px;
+        padding: 40px 0;
+    }
 `
 
 export const Container = styled.div`
@@ -16,7 +21,12 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 60px;
+    justify-content: space-between;
+
+    @media (max-width: 360px) {
+        width: 89.7%;
+        height: 664px;
+    }
 `
 
 export const Title = styled.div`
@@ -29,6 +39,14 @@ export const Title = styled.div`
     letter-spacing: -0.02em;
     text-align: center;
     color: #FFF;
+
+    @media (max-width: 360px) {
+        width: 105px;
+        height: 24px;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24px;
+    }
 `
 
 export const TextDec = styled.div`
@@ -55,6 +73,12 @@ export const ReasonContainer = styled.div`
     display: flex;
     justify-content: space-between;
     background-color: #082D4A;
+
+    @media (max-width: 360px) {
+        width: 100%;
+        height: 616px;
+        flex-direction: column;
+    }
 `
 
 export const Reasons = styled.div`
@@ -62,20 +86,31 @@ export const Reasons = styled.div`
     height: 100%;
     border-radius: 8px;
     padding: 25px;
-    gap: 24px;
+    justify-content: space-between;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #062237;
+
+    @media (max-width: 360px) {
+        width: 100%;
+        height: 142px;
+        border-radius: 4px;
+        padding: 12px;
+    }
 `
 
 export const ReasonContent = styled.div`
     height: 166px;
     display: flex;
     flex-direction: column;
-    gap: 14px;
+    justify-content: space-between;
     font-family: "Be Vietnam Pro", sans serif;
     text-align: center;
+
+    @media (max-width: 360px) {
+        height: 82px;
+    }
 `
 
 export const ReasonTitle = styled.div`
@@ -83,8 +118,13 @@ export const ReasonTitle = styled.div`
     font-size: 24px;
     line-height: 32px;
     letter-spacing: -0.02em;
-    text-align: center;
     color: #FFF;
+
+    @media (max-width: 360px) {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+    }
 `
 
 export const InnerContent = styled.div`
@@ -92,4 +132,10 @@ export const InnerContent = styled.div`
     font-size: 12px;
     line-height: 24px;
     color: #C3C4C5;
+
+    @media (max-width: 360px) {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+    }
 `

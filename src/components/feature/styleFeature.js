@@ -8,6 +8,11 @@ export const Wrapper = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media (max-width: 360px) {
+        height: 1212px;
+        padding: 20px 0 40px 0;
+    }
 `
 
 export const Container = styled.div`
@@ -17,7 +22,12 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 60px;
+    justify-content: space-between;
+
+    @media (max-width: 360px) {
+        width: 320px;
+        height: 1152px;
+    }
 `
 
 export const TitleContainer = styled.div`
@@ -25,8 +35,12 @@ export const TitleContainer = styled.div`
     height: 144px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+
+    @media (max-width: 360px) {
+        height: 100px;
+    }
 `
 
 export const Title = styled.div`
@@ -39,6 +53,13 @@ export const Title = styled.div`
     letter-spacing: -0.02em;
     text-align: center;
     color: #FFF;
+
+    @media (max-width: 360px) {
+        height: 24px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+    }
 `
 
 export const TextDec = styled.div`
@@ -64,7 +85,11 @@ export const MainTitle = styled.div`
     height: 96px;
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    justify-content: space-between;
+
+    @media (max-width: 360px) {
+        height: 68px;
+    }
 `
 
 export const SubText = styled.div`
@@ -76,6 +101,15 @@ export const SubText = styled.div`
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    text-align: center;
+
+    @media (max-width: 360px) {
+        height: 36px;
+        align-items: center;
+        color: #C3C4C5;
+        font-size: 12px;
+        line-height: 18px;
+    }
 `
 
 export const FeatureContainer = styled.div`
@@ -85,6 +119,13 @@ export const FeatureContainer = styled.div`
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 40px;
+
+    @media (max-width: 360px) {
+        height: 1028px;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-gap: 16px;
+    }
 `
 
 export const Features = styled.div`
@@ -92,11 +133,16 @@ export const Features = styled.div`
     border-radius: 8px;
     padding: 40px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    gap: 45px;
     background-color: #062237;
+
+    @media (max-width: 360px) {
+        height: 158px;
+        border-radius: 4px;
+        padding: 16px;
+    }
 `
 
 export const FeatureContent = styled.div`
@@ -105,9 +151,12 @@ export const FeatureContent = styled.div`
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 16px;
+
+    @media (max-width: 360px) {
+        height: 90px;
+    }
 `
 
 export const FeatureTitle = styled.div`
@@ -116,6 +165,12 @@ export const FeatureTitle = styled.div`
     line-height: 32px;
     letter-spacing: -0.02em;
     color: #FFF;
+
+    @media (max-width: 360px) {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+    }
 `
 
 export const InnerContent = styled.div`
@@ -123,4 +178,8 @@ export const InnerContent = styled.div`
     font-size: 12px;
     line-height: 24px;
     color: #C3C4C5;
+
+    @media (max-width: 360px) {
+        line-height: 18px;
+    }
 `

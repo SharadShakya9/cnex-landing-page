@@ -38,7 +38,7 @@ function Reason() {
             <Reasons>
                 <IconFactory type="legalsupport" />
                 <ReasonContent>
-                    <ReasonTitle>Fast</ReasonTitle>
+                    <ReasonTitle>Legal Support</ReasonTitle>
                     <InnerContent>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.Pariatur ducimus itaque modi dolores consectetur suscipit.
                     </InnerContent>

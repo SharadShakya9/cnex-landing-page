@@ -13,6 +13,14 @@ const Button = styled.button`
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media (max-width: 360px) {
+        width: 24px;
+        height: 24px;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
 `
 
 function IconButtons({type}) {
